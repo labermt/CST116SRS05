@@ -15,7 +15,7 @@ Specification:
 
 Create a 2 dimensional array of ints.  
 
-Initialize your data 0's and 1's of your choosing. The input and output should come from cin and cout.  
+Initialize your data 0's and 1's of your choosing. Input from cin and output to cout.  Use file redirection to reduce typing.  
 
 Loop over your array changing the 0's and 1's following these rules:  
 
