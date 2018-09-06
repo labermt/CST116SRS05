@@ -25,7 +25,7 @@ Loop over your array changing the 0's and 1's following these rules:
 
 If a cell is on the border of the array, it wraps back to the opposite end when looking at neighbors.  
 
-Prompt the user for number of iterations and print the values of your array for each iteration. Use a row of '-' characters to divide your iterations.  
+Prompt the user for number of iterations and print the values of your array for each iteration. Use a row of '-' characters to divide your iterations. Output the original array a iteration 0.  
 
 Tips: 
 
