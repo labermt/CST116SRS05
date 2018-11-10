@@ -1,4 +1,4 @@
-# CST161SRSLIFE
+# CST161SRS05
 Life 2D  
 
 Project Name(s):  
@@ -8,12 +8,13 @@ Project Name(s):
 Purposes:  
 
     - Learn to program with 2D arrays.  
-    - Practice modulus data wrapping.  
     - Practice stream input and output.  
 
 Specification:  
 
-Create a 2 dimensional array of ints.  
+This SRS is based on the Conway's Game of Life.  (https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+
+Create a 2 dimensional 100 x 100 array of ints.  
 
 Initialize your data 0's and 1's of your choosing. Input from cin and output to cout.  Use file redirection to reduce typing.  
 
@@ -25,7 +26,7 @@ Loop over your array changing the 0's and 1's following these rules:
 
 If a cell is on the border of the array, it wraps back to the opposite end when looking at neighbors.  
 
-Prompt the user for number of iterations and print the values of your array for each iteration. Use a row of '-' characters to divide your iterations. Output the original array a iteration 0.  
+Prompt the user for number of iterations and output the values of your array for each iteration. Use a row of 100 '-' characters to divide your iterations. Output the original array a iteration 0.  
 
 Tips: 
 
