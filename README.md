@@ -32,6 +32,6 @@ Tips:
 
 - Use [http://web.mit.edu/jb16/www/6170/gameoflife/gol.html](http://web.mit.edu/jb16/www/6170/gameoflife/gol.html) to compare your code to actual results.  
 
-- In the loop, duplicate the array and then process it back into the original array.  
+- Inside the loop, duplicate the array state into a temporary array. Process the temporary array back into the original array.  
 
 ###
