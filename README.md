@@ -24,9 +24,18 @@ Loop over your array changing the 0's and 1's following these rules:
 - If a cell contains a 1 and has 2 or 3 neighbors with a 1, it keeps the value of 1, otherwise it changes to a 0.  
 - If a cell contains a 0 and has exactly 3 neighbors with a 1, it changes to a 1, otherwise it keeps the value of 0.  
 
-If a cell is on the border of the array, it wraps back to the opposite end when looking at neighbors.  
+If a cell is on the border of the array, it wraps back to the opposite end (vertical and horizontal) when looking at neighbors during calculations.  
 
 Prompt the user for number of iterations and output the values of your array for each iteration. Use a row of 100 '-' characters to divide your iterations. Output the original array a iteration 0.  
+
+For example, a 4 x 10 array that did 5 iterations would have an input like so:
+```
+5
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0
+0 0 0 1 1 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+```
 
 Tips: 
 
